@@ -456,7 +456,6 @@ system = {
         return new Promise( ( resolve, reject ) => {
             const mailIndex = Number( args[ 0 ] );
             const messageList = mailList.filter( (mail) => mail.to.includes( userDatabase.userId ) );
-            //const mailAtIndex = mailList[ mailIndex ];
             const mailAtIndex = messageList[ mailIndex ];
             if ( !mailAtIndex || !mailAtIndex.to.includes( userDatabase.userId ) ) {
                 reject( new InvalidMessageKeyError() );
