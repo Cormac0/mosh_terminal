@@ -1,6 +1,6 @@
 {
     "serverAddress": "localhost",
-    "serverName": "Node Y56 Intranet",
+    "serverName": "Reception Terminal",
     "iconName": "cloudbank_logo.png",
     "terminalID": "Y56",
     "defaultUser": {
