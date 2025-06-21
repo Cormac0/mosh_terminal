@@ -89,3 +89,8 @@ You just need to share the correct link with your players and wait for them to r
 ## Acknowledgement
 - Inspiration taken from the incredible Gradient Descent terminal by @PimPee, https://github.com/PimPee/GradientDescentTerminal, with flavor text from @iason-pap, https://github.com/iason-pap/gradient-descent-terminal-files.
 - Forked and inspired by the ttrpg email terminal by @jacksonbenete, https://github.com/jacksonbenete/email_terminal.
+- All the other incredibly members of the Mothership and Open Source communities that I have forgotten to mention, but who have either inspired or contributed to this project!
+
+# Image acknowledgements
+- In addition to all the acknowledgements at https://github.com/jacksonbenete/email_terminal.
+- The Monarch jumpscare image was taken from the Mothership Discord server, and created by the incredible @Nukesnipe.
