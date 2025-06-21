@@ -4,6 +4,8 @@ This is a simple, read-only, implementation of terminal 22B in the Mothership ad
 
 This entire project has been forked from the ttrpg email terminal created by @jacksonbenete, https://github.com/jacksonbenete/email_terminal. If you are interested in creating your own terminal experience, I highly recommend checking out the original repository!
 
+If you are a Warden, see spoiler-inclusive notes in the WARDEN_README.md file.
+
 You can fork the project and change the code for your own configurations, like terminal name (or sector/station/node if sci-fi), image and messages.
 
 The database is a simple set of JSON files.
