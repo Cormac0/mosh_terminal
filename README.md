@@ -34,6 +34,8 @@ The following command will launch a server at localhost once you've cloned the r
 python -m http.server
 ```
 
+Alternatively, the terminal may be available online at https://cormac0.github.io/mosh_terminal/. This isn't garunteed though, since this project is a work-in-progress.
+
 ## Login, Mail & Read Functions
 
 The main functions are the `mail` and `read` terminal operations.
