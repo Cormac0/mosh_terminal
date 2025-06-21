@@ -159,9 +159,17 @@ function Terminal() {
      */
     function loadHistoryFromLocalStorage( initialHistory ) {
         const historyStr = localStorage.getItem( `history_${ serverDatabase.serverAddress }_${ userDatabase.userId }`, history_.join( "\n" ) );
-        if ( historyStr ) {
-            history_ = historyStr.split( "\n" );
-        } else if ( initialHistory ) {
+        // if ( historyStr ) {
+        //     history_ = historyStr.split( "\n" );
+        // } else if ( initialHistory ) {
+        //     const userInitialHistory = initialHistory[ userDatabase.userId ];
+        //     history_ = userInitialHistory || [];
+        // } else {
+        //     history_ = [];
+        // }
+        // histpos_ = history_.length;
+        // MODIFIED: Don't store history between sessions
+        if ( initialHistory ) {
             const userInitialHistory = initialHistory[ userDatabase.userId ];
             history_ = userInitialHistory || [];
         } else {

@@ -65,6 +65,10 @@ body {
 #container output pre {
   margin: 0;
 }
+#container output p {
+  margin: 2px 0;
+  line-height: 1.2;
+}
 .input-line {
   display: -webkit-box;
   -webkit-box-orient: horizontal;

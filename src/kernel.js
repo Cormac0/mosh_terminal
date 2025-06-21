@@ -131,12 +131,17 @@ function outputLinesWithDelay( lines, delayed, resolve ) {
  * @param {String} data text to display
  * @param {Object} data information on what to display
  */
-function printLine( data ) {
+function printLine(data) {
     data ||= "";
-    if ( !data.startsWith( "<" ) ) {
-        data = `<p>${ data }</p>`;
+    if (!data.startsWith("<")) {
+        // If empty or whitespace-only, insert non-breaking space for visible blank line
+        if (data.trim() === "") {
+            data = `<p>&nbsp;</p>`;;
+        } else {
+            data = `<p>${data}</p>`;
+        }
     }
-    output_.insertAdjacentHTML( "beforeEnd", data );
+    output_.insertAdjacentHTML("beforeEnd", data);
     applySFX();
 }
 
@@ -340,6 +345,8 @@ system = {
                     "You can navigate in the commands usage history using the UP & DOWN arrow keys.",
                     "The TAB key will provide command auto-completion."
                 ] );
+            } else if ( args[ 0 ] === "exit" ) {
+                resolve( [ "Usage:", "> exit", "The exit command logout the current user and return to the dashboard." ] );
             } else if ( args[ 0 ] === "clear" ) {
                 resolve( [ "Usage:", "> clear", "The clear command will wipe the content of the terminal, but it will not affect the history." ] );
             } else if ( args[ 0 ] === "date" ) {
@@ -383,7 +390,7 @@ system = {
             } else if ( args[ 0 ] in system && args[ 0 ] !== "dumpdb" ) {
                 console.error( `Missing help message for system command: ${ args[ 0 ] }` );
             } else {
-                resolve( [ `Unknow command ${ args[ 0 ] }` ] );
+                resolve( [ `Unknown command ${ args[ 0 ] }` ] );
             }
         } );
     },
@@ -421,18 +428,18 @@ system = {
         } );
     },
 
-    logout() {
-        return new Promise( () => {
-            location.reload();
-        } );
-    },
+    // logout() {
+    //     return new Promise( () => {
+    //         location.reload();
+    //     } );
+    // },
 
     exit() {
         return new Promise( () => {
             location.reload();
         } );
     },
-
+    //ISSUE: history() seems to be storing commands between uses. Commenting out to prevent spoilers for players!
     history() {
         return new Promise( ( resolve ) => {
             const messageList = history_.map( ( line, i ) => `[${ i }] ${ line }` ); // eslint-disable-line no-undef
@@ -466,7 +473,7 @@ system = {
             message.push( `From: ${ mailAtIndex.from }` );
             message.push( `To: ${ userDatabase.userId }@${ serverDatabase.terminalID }` );
             message.push( "---------------------------------------------" );
-            message = [ ...message, ...mailAtIndex.body.split( "  " ) ];
+            message = [ ...message, ...mailAtIndex.body.split(/\n| {2}/) ];
             resolve( message );
         } );
     },
@@ -477,6 +484,10 @@ system = {
                 reject( new AddressIsEmptyError() );
                 return;
             }
+            else if (args == "Monarch" || args == "monarch") {
+                resolve( `STOP.\n <p class=desync>IT DOESN'T LIKE IT WHEN YOU DO THAT.</p>`);
+                return;
+            }
 
             $.get( `config/network/${ args }/manifest.json`, ( serverInfo ) => {
                 resolve( `Server ${ serverInfo.serverAddress } (${ serverInfo.serverName }) can be reached` );
@@ -485,11 +496,11 @@ system = {
         } );
     },
 
-    telnet() {
-        return new Promise( ( _, reject ) => {
-            reject( new Error( "telnet is unsecure and is deprecated - use ssh instead" ) );
-        } );
-    },
+    // telnet() {
+    //     return new Promise( ( _, reject ) => {
+    //         reject( new Error( "telnet is unsecure and is deprecated - use ssh instead" ) );
+    //     } );
+    // },
 
     ssh( args ) {
         return new Promise( ( resolve, reject ) => {

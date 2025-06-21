@@ -2,18 +2,16 @@
     "serverAddress": "localhost",
     "serverName": "Reception Terminal",
     "iconName": "cloudbank_logo_transp_larger.png",
-    "terminalID": "Y56",
+    "iconSize" : 200,
+    "terminalID": "22B",
     "defaultUser": {
         "userId": "user",
         "password": "",
-        "userName": "anonymous"
+        "userName": "guest"
     },
     "initialHistory": {
         "user": [
-            "login admin@admin"
-        ],
-        "admin": [
-            "ping fbi.gov"
+            "login emily:"
         ]
     }
 }

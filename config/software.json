@@ -1,5 +1,6 @@
 {
     "demo.exe": {
+        "location":["127.0.0.1"],
         "help": "Demonstrate some rendering features",
         "clear": true,
         "message": [
@@ -11,28 +12,62 @@
             "<img src=hacker.jpg class=particle data-particules=2000>"
         ]
     },
-    "cdata.exe": {
+    "override_alpha": {
         "protection": ["admin"],
         "delayed": 2000,
         "message": [
-            "Corrupting data.",
-            "Corrupting data..",
-            "Corrupting data...",
+            "Security override CONFIRMED.",
+            "Connecting to Security Checkpoint Alpha..",
+            "Connecting to Security Checkpoint Alpha...",
             "0% complete",
             "11% complete",
             "47% complete",
             "98% complete",
-            "System successfully corrupted!"
-        ]
+            "System successfully disabled!"
+        ],
+        "help":"Disable turrets at Security Checkpoint Alpha."
+    },
+    "override_bravo": {
+        "protection": ["admin"],
+        "delayed": 2000,
+        "message": [
+            "Security override CONFIRMED.",
+            "Connecting to Security Checkpoint Bravo..",
+            "Connecting to Security Checkpoint Bravo...",
+            "0% complete",
+            "11% complete",
+            "47% complete",
+            "98% complete",
+            "System successfully disabled!"
+        ],
+        "help":"Disable turrets at Security Checkpoint Bravo."
     },
     "target.exe": {
-        "location": ["127.0.0.1", "localhost"],
+        "location": ["127.0.0.1"],
         "message": [
             "This <abbr title=\"tHeY aRe NoT hUmAn\"><s>person</s></abbr> is your target:",
             "<img src=\"https://thispersondoesnotexist.com/image\" title=\"tHeY aRe NoT hUmAn\" style=\"width: 10rem; max-width: 100%;\">"
         ]
     },
-    "artifact": {},
-    "decrypt": {},
-    "identify": {}
+    "admin.exe": {
+        "location": ["localhost"],
+        "help": "<p class=hack-reveal data-alphabet=uppercase data-iterations-before-reveal=0 data-preserve-spaces=true>MONARCH IS WATCHING. ALWAYS WATCHING.</p>",
+        "message": ["<img src=config/network/localhost/monarch_jumpscare.webp style='width: 50rem' class=glitch>","<p class=desync>Thank you for your cooperation.</p>","-Monarch"]
+    },
+    "idlist": {
+        "location": ["localhost"],
+        "help": "Returns a list of registered user ids for this terminal.",
+        "message": ["emily","admin","user"]
+    },
+    "guestmap": {
+        "location":["localhost"],
+        "help": "Provides a map of the reception area to guests. Printed and digital versions are available. Warning: accessing facility plans beyond the reception area is strictly prohibited without a signed NDA.",
+        "message": "A map has been provided, please enjoy your visit to Cloudbank Synthetics Production Facility!"
+    },
+    "employeemap": {
+        "location":["localhost"],
+        "protection":["emily","admin"],
+        "help": "Provides a detailed map of floors 1 and 2. Employee access only.",
+        "message": "A map has been provided. Provision of the employee map to guests is grounds for immediate employment termination."
+    }
 }

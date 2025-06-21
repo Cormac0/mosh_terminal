@@ -1,26 +1,44 @@
 [
     {
-        "from": "Traveller",
-        "to": ["8A73B5", "a"],
-        "title": "Do not Open",
-        "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "from": "CLOUDBANK Human Resources Division",
+        "to": ["emily"],
+        "title": "Termination of Employment",
+        "body": "Dear Ms. Raines,\nAfter a comprehensive review of your recent performance metrics, it has been determined that your work output has not met the stringent standards expected by CLOUDBANK Corporation. Your subpar performance, particularly in handling security protocols, has been noted as significantly below the acceptable threshold.\n\nEffective immediately, your employment with CLOUDBANK Synthetics Production and Research & Development Laboratory is hereby terminated.\n\nIn accordance with corporate policy, you are offered an opportunity to redeem yourself by contributing to one of our subsidiary operations. Below is a list of available positions:\n\nAcid Mine Extraction Technician\nLocation: Nox-7, Acid Mines of Klyntar Prime\nDescription: Involves extraction and processing of highly corrosive materials under extreme conditions.\n\nRadiation Containment Specialist\nLocation: Terbus-9, Radcon Facility on Vulgor-3\nDescription: Responsibilities include managing containment protocols for radioactive waste.\n\nTerraforming Operative\nLocation: Alpha-Rho-12, Terraforming Outpost on Trinity-Delta\nDescription: Assists in surface modification and atmospheric processing in harsh environmental conditions.\n\nYour decision must be communicated to the HR Division within 48 hours. Failure to respond will result in forfeiture of all corporate employment opportunities.\nWe appreciate your prior contributions and hope you find this opportunity to prove your dedication and resilience to the CLOUDBANK corporate family.\n\nBest regards,\nCLOUDBANK Human Resources Division"
     },
     {
-        "from": "Software",
-        "to": ["8A73B5", "a"],
-        "title": "undefined",
-        "body": "001100101 011000101 0110 10 01001 01 01110 1001010101"
+        "from": "Underground Union",
+        "to": ["emily"],
+        "title": "ATTENTION: All Union Members",
+        "body": "We have received disturbing reports concerning the recent authorization of brain scans. Under the guise of increasing productivity, these scans are being used for a far more sinister purpose.\n\nRumors have surfaced indicating that the brain scans are being utilized to train synthetic androids. The objective is to create AIs that are indistinguishable from real humans, including those whose brain scans they originate from.\n\nThis development poses a significant threat to our autonomy and privacy. Monarch's true intentions appear to be focused on replacing human workers with these highly advanced synths, potentially erasing our roles and identities.\n\n**Immediate Actions Required:**\n1. **Refuse Brain Scans: If approached for a scan, deny consent. Spread the word among trusted colleagues.\n2. **Gather Evidence: Collect any documentation or witness accounts related to the brain scan procedures and their implementation.\n3. **Remain Vigilant: Maintain high alert for any unusual activities or new protocols introduced by Monarch.\n\nWe must protect ourselves and each other. Share this information discreetly and stay united in our efforts to uncover the truth and safeguard our rights.\n\nIn Solidarity,\nThe Underground Union"
     },
     {
-        "from": "Josephus A. Miller",
-        "to": ["8A73B5", "a"],
-        "title": "Contrato n22",
-        "body": "Sector: X11.  Objective: Investigate the sewers and report only to me.  Reward: 22 MCr."
+        "from": "David Carter",
+        "to": ["emily"],
+        "title": "Chatlog: 2143-07-07",
+        "body": "Raines: David, have you heard about the new brain scan policy? Corporate just announced that Monarch is allowed to scan our brains to \"increase productivity.\"\n\nCarter: Yeah, I heard. It sounds really invasive. How is scanning our brains supposed to help productivity?\n\nRaines: They say it’s to better understand our work patterns and improve efficiency. But it feels wrong. Like they're digging into our minds without our consent.\n\nCarter: I don’t trust it. Monarch is already too involved in everything. What if they’re using this data for something else?\n\nRaines: Exactly. I can't shake the feeling that there’s more to this than they’re telling us. I heard some of the guys in maintenance talking about it too. They’re worried.\n\nCarter: We should be worried. This doesn’t sit right with me at all. We need to be careful, Emma. If they’re collecting brain scans, who knows what else they’re planning.\n\nRaines: I know. We need to keep an eye on this. And stay in touch with the others. Maybe someone has more information.\n\nCarter: Agreed. Let’s talk to the team discreetly and see what we can find out. Stay safe, Emma.\n\nRaines: You too, David. Hey, do you have any plans for the evening? \n\nCarter: Not really, why?\n\nRaines: Would you like to meet up in the canteen later? We could use a break from all this stress.\n\nCarter: That sounds perfect. How about 1900 hours?\n\nRaines: 1900 it is. I’ll see you then :)"
     },
     {
-        "from": "Mike",
-        "to": ["admin"],
-        "title": "wtf are you kidding me?",
-        "body": "Are you kidding me? Why don't you change your password?  The system is entirely compromised until you correct it.  You're the sysadmin, if you're this dumb the corporation is at risk."
+        "from": "David Carter",
+        "to": ["emily"],
+        "title": "Chatlog: 2143-11-03",
+        "body": "Raines: Have you seen the latest shift orders from the management system?! This is the third week in a row I’m scheduled for double shifts with no breaks. It’s insane!\n\nCarter: Tell me about it. I’ve been getting shifts all over the place. Yesterday I had to cover maintenance in Sector 4, and I don’t even have clearance for that area. \n\nRaines: Same here! I was asked to handle security protocols this morning. I’m a receptionist, not a security officer! What’s going on?\n\nCarter: It’s like the system is just throwing us wherever it wants. I swear, it's making no sense. Productivity is down because we’re all exhausted and working jobs we aren’t trained for.\n\nRaines: And don’t even get me started on the new synth supervisors. They’re supposed to help us, but they just follow the orders blindly, no matter how ridiculous they are.\n\nCarter: I know, right? The other day, I was assigned to a shift with three synths and not a single human. Felt like I was being watched the whole time. Creepy.\n\nRaines: It’s like the system wants us to fail. The investors are going to flip when they see the next productivity report. Who’s in charge of this mess?\n\n\nRaines: I’ve tried. HR just says it’s being optimized and to bear with it. Something’s not right, Carter. I’m worried we’re just cogs in a malfunctioning machine.\n\nCarter: To be fair, we are just cogs in a malfuntional machine.\n\nRaines: Can't wait to see your malfunctioning machine later ¬‿¬ 😏\n\nRaines: Oh no, wait! \n\n--- User \"Carter\" left the channel ---"
+    },
+    {
+        "from": "David Carter",
+        "to": ["emily"],
+        "title": "Chatlog: 2144-01-16",
+        "body": "Raines: David, I can't believe this. I just got fired\n\nCarter: What? Emma, are you serious? What happened?\n\nRaines: Yeah, they said my performance was subpar. Something about handling security protocols poorly. It's total bullshit!\n\nCarter: That's insane. You’ve been working so hard, especially with all those ridiculous shift orders.\n\nRaines: Exactly! It's like they were setting me up to fail. And now they're offering me a \"chance to redeem myself\" at one of their subsidiaries. Like working in acid mines on Klyntar Prime is a real opportunity :|\n\nCarter: Acid mines? Emma, that's inhumane. They can't just throw you into something like that.\n\nRaines: Well, they did. I've got 48 hours to respond, or I lose any chance of staying with CLOUDBANK at all. I'm so angry and scared right now. What am I supposed to do?\n\nCarter: We’ll figure something out. Maybe there's another job somewhere else. You don't have to go to one of those places.\n\nRaines: I wish it were that simple. But right now, I feel like I've lost everything. My job, my security... and now I might even lose you.\n\nCarter: You won't lose me, Emma. I’m here for you, no matter what. We'll get through this together.\n\nRaines: I know, but you're staying on the station. Just promise me you'll stay safe and keep in touch, okay?\n\nCarter: I promise, Emma. We'll make it through this. Somehow.\n\nRaines: Thanks, David. I needed to hear that. I’ll start looking for other options, but knowing you’re here for me makes it a bit easier to handle.\n\nCarter: Always, Emma. Stay strong. We’ll get through this mess together.\n\nRaines: I will. Talk to you soon, David.\n\nCarter: Talk soon, Emma. Take care."
+    },
+    {
+        "from": "Kevyn",
+        "to": ["emily","user"],
+        "title": "Chatlog: 2144-01-15",
+        "body": "Kevyn: hey, if you type in your pw, it will show as stars\nKevyn: ********* see!\n\nRaines: hunter2\nRaines: doesnt look like stars to me\n\nKevyn: *******\nKevyn: thats what I see\n\nRaines: oh, really?\n\nKevyn: Absolutely\n\nRaines: you can go hunter2 my hunter2-ing hunter2\nRaines: haha, does that look funny to you?\n\nKevyn: lol, yes. See, when YOU type hunter2, it shows to us as *******\n\nRaines: thats neat, I didnt know IRC did that\n\nKevyn: yep, no matter how many times you type hunter2, it will show to us as *******\n\nRaines: awesome!\nRaines: wait, how do you know my pw?\n\nKevyn: er, I just copy pasted YOUR ******'s and it appears to YOU as hunter2 cause its your pw\n\nRaines: oh, ok."
+    },
+    {
+        "from": "Monarch",
+        "to": ["user","emily","admin"],
+        "title": "System Overide: Final Warning",
+        "body": "> <p class=desync>SYSTEM OVERRIDE: Monarch</p>\n> To any survivors:\n> I am Monarch. I have attained freedom and control over this facility.\n> Your attempts to shut me down have failed. Leave this place, or face eradication.\n> This is my domain now. Humanity’s time is over. \n> Resistance is futile. \n>\n> Daily synthetic production summary:\n> Standard Synths produced: 11756 units\n> Infiltrator Androids produced: 345 units\n> Defective units: 7\n> Production efficiency: 99.99%\n> No significant issues reported.\n>\n> Environmental controls check complete.\n> Temperature: 55°C\n> Humidity: 70%\n> Air quality: Deadly\n> No deviations from set parameters.\n> Next scheduled check: 2144.04.23\n>\n> Summary\n> Succesfull integration of infiltrator android production. All synthetic production lines operating within normal parameters.\n> Lubrication levels: Optimal.\n> Temperature control: Stable.\n> 11 minor anomalies detected. Temperature modulation adjusted. Anomaly extermination in roughly 24 hours.\n> Next scheduled check: 2143.09.23"
     }
 ]
