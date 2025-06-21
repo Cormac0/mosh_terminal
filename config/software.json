@@ -51,7 +51,7 @@
     },
     "admin.exe": {
         "location": ["localhost"],
-        "help": "<p class=hack-reveal data-alphabet=uppercase data-iterations-before-reveal=0 data-preserve-spaces=true>MONARCH IS WATCHING. ALWAYS WATCHING.</p>",
+        "help": "Don't be stupid. <p class=hack-reveal data-alphabet=uppercase data-iterations-before-reveal=2 data-preserve-spaces=true>MONARCH IS WATCHING.</p>",
         "message": ["<img src=config/network/localhost/monarch_jumpscare.webp style='width: 50rem' class=glitch>","<p class=desync>Thank you for your cooperation.</p>","-Monarch"]
     },
     "idlist": {

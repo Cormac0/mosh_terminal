@@ -36,7 +36,7 @@ function setHeader( msg ) {
     const promptText = `[${ userDatabase.userName }@${ serverDatabase.terminalID }] # `;
 
     initDateObject();
-    const dateStr = `${ serverDate.day }/${ serverDate.month }/${ serverDate.year }`;
+    const dateStr = `${ serverDate.day }/${ serverDate.month }/${ serverDate.year+200 }`;
     const imgUrl = `config/network/${ serverDatabase.serverAddress }/${ serverDatabase.iconName }`;
     const imgSize = serverDatabase.iconSize || 100;
     const header = `
@@ -313,7 +313,7 @@ system = {
         return new Promise( ( resolve ) => {
             const date = new Date();
             const time = `${ date.getHours() }:${ date.getMinutes() }:${ date.getSeconds() }`;
-            resolve( String( `${ serverDate.month } ${ serverDate.day } ${ serverDate.year } ${ time } ${ serverDate.reference }` ) );
+            resolve( String( `${ serverDate.month } ${ serverDate.day } ${ serverDate.year+200 } ${ time } ${ serverDate.reference }` ) );
         } );
     },
 
@@ -360,7 +360,7 @@ system = {
             } else if ( args[ 0 ] === "login" ) {
                 resolve( [ "Usage:", "> login username:password", "Switch account: log in as another registered user on the server, to access your data files and messages." ] );
             } else if ( args[ 0 ] === "mail" ) {
-                resolve( [ "Usage:", "> mail", "If you're logged in you can list your mail messages if any." ] );
+                resolve( [ "Usage:", "> mail", "If you're logged in you can list your mail messages if any. Use the read command to access a specific message." ] );
             } else if ( args[ 0 ] === "ping" ) {
                 resolve( [
                     "Usage:",
@@ -369,7 +369,7 @@ system = {
                     "If the ping doesn't return a valid response, the address may be incorrect, may not exist or can't be reached locally."
                 ] );
             } else if ( args[ 0 ] === "read" ) {
-                resolve( [ "Usage:", "> read x", "If you're logged in you can read your mail messages if any." ] );
+                resolve( [ "Usage:", "> read x", "If you're logged in you can read your mail messages if any. Provide the message index as x." ] );
             } else if ( args[ 0 ] === "ssh" ) {
                 resolve( [
                     "Usage:",
